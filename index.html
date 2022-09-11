@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="left-container">
+      <div class="logo">Jellyfish</div>
+    </div>
+    <div class="right-container">
+      <div class="top-message">
+        <p>
+          This is not a real online service! You know you need something <br />
+          like this in you life to help you realize your deepest dreams.<br />Sign
+          up <em>now</em> to get started. <br /><br />
+          You <em>know</em> you want to.
+        </p>
+      </div>
+
+      <div class="form-container">
+        <p class==>Let's do this!</p>
+        <form id="form" action="#" method="get">
+          <ul>
+            <p>
+              <label for="first">First Name *</label>
+              <li>
+                <input
+                  type="text"
+                  id="first"
+                  name="first"
+                  minlength="2"
+                  maxlength="20"
+                  required
+                />
+              </li>
+            </p>
+            <p>
+              <label for="email">Email *</label>
+              <li>
+                <input type="email" name="email" id="email" required />
+              </li>
+            </p>
+            <p>
+              <label for="pwd">Password *</label>
+              <li>
+                <input
+                  type="password"
+                  name="pwd"
+                  id="pwd"
+                  minlength="8"
+                  maxlength="86"
+                  required
+                />
+              </li>
+            </p>
+          </ul>
+          <ul>
+            <p>
+              <label for="last">Last Name *</label>
+              <li>
+                <input
+                  type="text"
+                  id="last"
+                  name="last"
+                  minlength="2"
+                  maxlength="20"
+                  required
+                />
+              </li>
+            </p>
+            <p>
+              <label for="phone">phone number</label>
+              <li>
+                <input type="tel" name="phone" id="phone" />
+              </li>
+            </p>
+            <p>
+              <label for="pwd2">confirm password *</label>
+              <li>
+                <input
+                  type="password"
+                  name="pwd2"
+                  id="pwd2"
+                  minlength="8"
+                  maxlength="86"
+                  required
+                />
+              </li>
+            </p>
+          </ul>
+        </form>
+      </div>
+      <input form="form" type="submit" value="Create account" />
+      <p>Already have an account? <a href="#">Log in</a></p>
+    </div>
+  </body>
+</html>

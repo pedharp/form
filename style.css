@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+
+form label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(231, 232, 240);
+}
+
+.left-container {
+  color: #fff;
+  background-image: url("https://cdn.pixabay.com/photo/2022/06/30/14/31/jellyfish-7293778_960_720.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  width: 40vw;
+  height: auto;
+  overflow: auto;
+}
+
+.logo {
+  font-family: "Teko", sans-serif;
+  font-size: 70px;
+  position: relative;
+  top: 160px;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(8, 41, 114, 0.274);
+}
+
+.right-container {
+  height: auto;
+  width: 100%;
+  background-color: rgba(23, 21, 153, 0.733);
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: auto;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(12, 10, 122);
+  text-decoration: none;
+}
+
+p,
+.top-message,
+input[type="submit"] {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+.top-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 20px;
+  /* margin-bottom: 50px; */
+  margin-left: -20px;
+}
+
+.form-container {
+  background-color: rgba(92, 124, 228, 0.733);
+  height: auto;
+  width: 100%;
+  padding: 50px 0 40px 50px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: rgb(40, 31, 161);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin: 20px 0 20px 49px;
+}
+
+input {
+  outline: none;
+  border: 3px solid;
+  border-radius: 5px;
+}
+
+input:not([type="submit"]) {
+  height: 30px;
+}
+
+input:valid:not([type="submit"]) {
+  border-color: rgb(62, 235, 27);
+}
+
+input:invalid {
+  border-color: rgb(231, 12, 12, 0.6);
+}
+
+ul {
+  list-style: none;
+  padding: 10px 30px 0 0;
+}
+
+form {
+  display: flex;
+}
+
+.right-container p:last-child {
+  margin-left: 49px;
+}
+
+.form-container p:first-of-type {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+/* @media only screen and (max-height: 400px)  {
+    .form-container {
+      width: 50%;
+    }
+  } */
